@@ -10,7 +10,7 @@ print('''
 
 
 ''')
-print("¿Cuanto costara el telefono?")
+print("Reto 2: ¿Cuanto costara el telefono?")
 precio_total = 100
 valor_impuesto = precio_total * 0.21
 precio_neto = precio_total - valor_impuesto
@@ -29,3 +29,20 @@ print('''
 
 
 ''')
+print("Reto 3: ¿Cuantas vueltas dará un fidget spinner?")
+vueltas_minuto = 147
+vueltas_segundo = vueltas_minuto / 60
+print("vueltas por segundo: ", vueltas_segundo)
+print("Numero de vueltas en 640 segundos: ", vueltas_segundo * 640)
+print('''
+
+
+''')
+print("Reto 4: ¿Cuántas latas de refresco sobran?")
+lata = 1
+caja_refresco = lata * 24
+total_refrescos = caja_refresco * 9
+total_personas = 56
+print("Tota de latas de refresco: ", total_refrescos)
+print("Refrescos por persona", total_refrescos // total_personas)
+print("Refescos restantes: ", total_refrescos % total_personas)
