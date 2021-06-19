@@ -10,8 +10,8 @@ print('''
 
 ''')
 print("Reto 2: ¿Cuanto costara el telefono?")
-precio_total = 100
-valor_impuesto = precio_total * 0.21
+precio_total = 420
+valor_impuesto = precio_total / 1.21
 precio_neto = precio_total - valor_impuesto
 print("precio total", precio_total)
 print("valor impuesto", valor_impuesto)
